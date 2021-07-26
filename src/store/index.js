@@ -5,6 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    
     tasks:[
         {
           id:1,
@@ -24,7 +25,6 @@ export default new Vuex.Store({
 
         }
     ],
-    name:"adwa",
   },
   mutations: {
     addTask(state, taskTitle){
